@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 30px;
+    background-color: darkslategrey;
+}
+
+.logoqueso {
+    height: 80px;
+    width: 100px;
+}  
+
+.navbar,
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.navbar-list{
+    gap: 100px;
+}    
+.navbar{
+    color: rgb(9, 77, 54);
+    font-size: 20px;
+}
+.navbar-list a{
+    color: rgb(167, 230, 226);
+    font-weight: 100;
+    font-style: italic;
+}
