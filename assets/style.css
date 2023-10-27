@@ -11,6 +11,7 @@ header {
 .logoqueso {
     height: 80px;
     width: 100px;
+    background-color: gold;
 }  
 
 .navbar,
@@ -23,11 +24,128 @@ header {
     gap: 100px;
 }    
 .navbar{
-    color: rgb(9, 77, 54);
+    color: rgb(146, 177, 11);
     font-size: 20px;
+    background-color: gold;
 }
 .navbar-list a{
-    color: rgb(167, 230, 226);
+    color: rgb(202, 73, 13);
     font-weight: 100;
     font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkslategray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    color: brown;
+    width: 100%;
+}
+#hero{
+    margin-top: 50px;
+    padding: 50px 0px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+}    
+.hero-info a{
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgb(148, 15, 22);
+    background-color: chocolate;
+    width: 120px;
+    padding: 8px 0px;
+    text-align: center;
+}
+.hero-info h1{
+    font-size: 35px;
+    width: 40%;
+    font-weight: 400;
+    color: tomato;
+}
+.hero-info p{
+    font-size: 16px;
+    width: 70%;
+    color: rgb(125, 125, 129);
+}
+.hero-card img{
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+      
+}
+.presentacion p{
+    margin: 45px;
+    color: blanchedalmond;
+    font size: 100px;
+    max-width: 95%;
+   
+}
+.hero-tipos h3{
+    font-size: 35px;
+    justify-content: center;
+    color: yellow;
+    padding: 0px 100px;
+}
+#hero-principal{
+    display: flex;
+    flex-direction: row;
+}
+.hero-card-gruyere,
+.hero-card-azul,
+.hero-card-provolone,
+.hero-card-brie{
+    display: flex;
+    flex-direction: column;
+    background-color: darkgoldenrod;
+    border-radius: 15px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+.hero-card-gruyere img,
+.hero-card-azul img,
+.hero-card-provolone img,
+.hero-card-brie img{
+    width: 200px;
+    height: 200px;
+}
+
+.hero-card-gruyere,
+.hero-card-azul,
+.hero-card-provolone,
+.hero-card-brie{
+    padding: 30px 30px 30px 30px;
+    margin: 45px 45px 45px 45px;
+}
+
+.hero-card-top1 h3,
+.hero-card-top2 h3,
+.hero-card-top3 h3,
+.hero-card-topa h3{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+    
